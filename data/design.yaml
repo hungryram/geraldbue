@@ -70,9 +70,9 @@ home_sections:
 
     We take pride in our honest business concepts, integrity, and experience.
   button:
-    intro_btn_label: test button
-    intro_link: https://hungryram.com
-    intro_new_tab: true
+    intro_btn_label: Contact
+    intro_link: "/contact"
+    intro_new_tab: false
   intro_background_color: "#F9F9F9"
 - template: info-section
   info_title: Helping You Achieve Success
