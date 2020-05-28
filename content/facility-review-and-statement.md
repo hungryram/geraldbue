@@ -2,6 +2,8 @@
 meta_description = "Secure Solutions is unbiased, professional, experienced, and honest in our assessments. Let's make sure you have the correct tools to be successful."
 title = "Facility Review and Statement"
 title_tag = "Secure Solutions Facility Review and Statement"
+[menu.main]
+weight = 3
 
 +++
 Secure Solutions will examine the facility cleanliness and organization of employees.
