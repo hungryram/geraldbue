@@ -1,6 +1,10 @@
 baseURL = "/"
 languageCode = "en-us"
 [[menu.main]]
+name = "Assessment Form"
+url = "/assessment-form"
+weight = 4
+[[menu.main]]
 name = "Professional Summary"
 url = "/about"
 weight = 2
