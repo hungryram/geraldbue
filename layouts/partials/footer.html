@@ -11,8 +11,8 @@
         {{ else }}
         {{ with .Site.Data.profile.address }}<address>{{ .address }} {{ .city }}, {{ .state }} {{ .zip_code }}</address>{{ end }}
         {{ end }}
-        {{ with .Site.Data.profile.primary_contact }}<p>{{ .phone_number }}</p>{{ end }}
-        {{ with .Site.Data.profile.primary_contact }}<p> {{ .email }}</p>{{ end }}
+        {{ with .Site.Data.profile.primary_contact }}<p><a href="tel:{{ .phone_number }}">{{ .phone_number }}</a></p>{{ end }}
+        {{ with .Site.Data.profile.primary_contact }}<p><a href="mailto:{{ .email }}">{{ .email }}</a></p>{{ end }}
         <div class="footer-social">
           <ul>
             {{ if .Site.Data.profile.social.instagram }}<li><a href="{{ .Params.instagram }}"><i class="fab fa-instagram"></i></a></li>{{ end }}
