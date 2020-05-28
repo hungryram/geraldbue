@@ -1,0 +1,435 @@
+{{ define "main" }}
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <form name="contact" method="POST" data-netlify="true">
+
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label">Name</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="First Name" name="first name">
+                        </p>
+                      </div>
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="Last Name" name="last name">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label">Contact</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="Phone Number" name="phone">
+                        </p>
+                      </div>
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="email" placeholder="Email" name="email">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label">Address</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="Street/Suite" name="address">
+                        </p>
+                      </div>
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="City" name="city">
+                        </p>
+                      </div>
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="State" name="state">
+                        </p>
+                      </div>
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="Zip Code" name="zip code">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label">Date</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="Day and date of appearance" name="day and date of appearance">
+                        </p>
+                      </div>
+                      <div class="field">
+                        <p class="control is-expanded">
+                          <input class="input" type="text" placeholder="Time of visit" name="time of visit">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label"></label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <label class="label">Was the facility outside appearance appealing and clean etc?</label>
+                        <p class="control is-expanded">
+                          <input class="input" type="text" name="Was the facility outside appearance appealing and clean">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label"></label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <label class="label">Was the facility clean and attractive?</label>
+                        <p class="control is-expanded">
+                          <input class="input" type="text" name="Was the facility clean and attractive">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label"></label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <label class="label">How did you feel about the overall appearance of the facility?</label>
+                        <p class="control is-expanded">
+                          <input class="input" type="text" name="ow did you feel about the overall appearance of the facility">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label"></label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <label class="label">Were you prompty greeted by an employee?</label>
+                        <p class="control is-expanded">
+                          <input class="input" type="text" name="Were you prompty greeted by an employee">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label"></label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <label class="label">Was the greeting friendly and professional?</label>
+                        <p class="control is-expanded">
+                          <input class="input" type="text" name="Was the greeting friendly and professional">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">If the employee was occupied did the employee let you know that he/she would be right with you</label>
+                          <label class="radio">
+                            <input type="radio" name="If the employee was occupied did the employee let you know that he/she would be right with you" value="yes">
+                            Yes
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="If the employee was occupied did the employee let you know that he/she would be right with you" value="no">
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">Did the employee ask good questions to find out what you were looking for?</label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Yes
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">Was the employee knowledgeable about the merchandise/ menu ?</label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Yes
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            No
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">What was your overall experience with the staff in the facility?</label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Needs Improvement
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Good
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Excellent
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">Did the employee ask good questions to find out what you were looking for? </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Needs Improvement
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Good
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Excellent
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">Was the employee knowledgeable about the merchandise/ menu? </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Needs Improvement
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Good
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Excellent
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">What was your overall experience with the staff in the facility?</label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Needs Improvement
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Good
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Excellent
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">How would you rate your first impression of the facility?</label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Needs Improvement
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Good
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Excellent
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">What is your overall opinion of the facility?</label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Needs Improvement
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Good
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Excellent
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                    </div>
+                    <div class="field-body">
+                      <div class="field is-narrow">
+                        <div class="control">
+                            <label class="label">Was the overall experience enjoyable, leaving you a desire to return?</label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Needs Improvement
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Good
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="member">
+                            Excellent
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label">Phone interview comments and statement</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <div class="control">
+                          <textarea class="textarea"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                      <label class="label">Observation and discussion outline</label>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <div class="control">
+                          <textarea class="textarea"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="field is-horizontal">
+                    <div class="field-label">
+                      <!-- Left empty for spacing -->
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <div class="control">
+                          <button class="button is-primary">
+                            Send message
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </form>
+                            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
