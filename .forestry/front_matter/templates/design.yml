@@ -46,6 +46,16 @@ fields:
         format: markdown
     label: Hero Subtitle
   label: Hero
+- name: sub_pages
+  type: field_group
+  config: {}
+  fields:
+  - name: sub_image
+    type: file
+    config:
+      maxSize: 64
+    label: Sub Image
+  label: Sub Pages
 - name: home_sections
   type: blocks
   label: Home Sections
