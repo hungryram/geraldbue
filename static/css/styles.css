@@ -1,5 +1,6 @@
 body {
     background: #f7f7f7;
+    overflow: hidden;
 }
 
 div hr {
@@ -112,7 +113,7 @@ div.hero-body p {
     .navbar-menu {
         display: block!important;
         position: absolute;
-        right: -300px;
+        right: -600px;
         transition: all .2s ease;
         padding: 40px;
         height: 100vh;

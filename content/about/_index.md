@@ -1,4 +1,5 @@
 +++
+title = "Professional Summary"
 aboutpage_subtitle = "Our Skills"
 aboutpage_title = "Why Choose Us"
 aboutpage_top_content = "Our skills in the industry involve team leadership, process improvement and human resource development. In this current  business environment we feel it's absolutely imperative to know how to improve on your company success."
