@@ -48,6 +48,15 @@ a.button:hover {
     transition: all .4s ease;
 }
 
+button.button.main-btn {
+    background: #886924;
+    transition: all .2s ease;
+}
+
+button.button.main-btn:hover {
+    background: #644a12;
+    transition: all .2s ease;
+}
 
 /* INTERIOR IMAGE */
 
