@@ -16,9 +16,11 @@ sections:
   label: Pages
 - type: directory
   path: content
-  label: Add Page
-  create: all
+  label: Add/View Page
+  create: documents
   match: "*"
+  templates:
+  - custom-pages
 - type: heading
   label: Default Pages
 - type: document
